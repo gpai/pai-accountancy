@@ -1,0 +1,1077 @@
+html, body { 
+	margin: 2px 0px;
+	background-color: #0c1b30;
+	
+}
+img {
+	border:0;
+	padding:0;
+	margin:0;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: calibri, verdana, arial, sans-serf;
+}
+p{
+	font-family: calibri, verdana, arial, sans-serf;
+}
+
+#container{
+	margin: 0 auto;
+	width: 1000px;
+}
+		
+/* Beginning of CSS for the Pai Accountancy LLP logo & Side Address*/		
+#header { 
+	position: relative;
+	height: 80px;
+	line-height: 80px;
+	width: 100%;
+	padding-right: 15px;
+}
+	
+#logo{
+	float: left;
+}
+	
+#address{
+	float: right;
+	position:relative;
+		top:11px;
+}		
+/* End of CSS for logo & address*/	
+/* Beginning of CSS for menu bar & submenus*/
+#menuBar{
+	height:38.5px;
+	width: 100%;
+	background-color: #3E3E3E;
+	border: 1px solid #000000;
+		border-bottom: 0;
+	line-height: 38px;
+}
+	
+#language{
+	background-color: #3E3E3E;
+	float: right;
+	padding: 8px 40px 0px 0px;
+	}
+
+#language select{
+	width: 110px;
+}
+
+#menu{
+	position: absolute;
+		width: 890px;
+	padding: 0;
+	margin: 0 25px;
+	border: 0;
+}
+	
+#menu li{
+/*floating the main list items*/
+	float:left;
+	display:block;
+		padding-right: 4%;
+		padding-left: 3.5%;
+	font-family: calibri, verdana, arial, sans-serif;
+}
+	
+#menu li a{
+/*properties for all links in the 1st level menu*/
+	width: 100%;
+	height: 100%;
+	display:block;
+	font-size:150%;
+	color:#D9D9D9;
+	background-color:#3E3E3E;
+	text-decoration: none;
+}
+
+#menu li.Menu ul{
+/*putting the 2nd level menu below and hiding them all*/
+	display: none;
+	position: relative;
+		top: 1px;
+	width: 100%;
+	line-height: 25px;
+	margin:0;
+	padding:0;
+	border: 0;
+	float: left;
+}
+		
+#menu li.Menu ul a{
+/*properties for 2nd level menu links*/
+	width: 130px;
+	height: 100%;
+	display:block;
+	font-size:125%;
+	color:#D9D9D9;
+	background-color:#3E3E3E;
+	text-decoration: none;
+	padding: 5px 10px 5px 3px;
+	margin: 3px 0px 0px 0px;
+	border: 1px solid #000000;
+}
+
+#menu li.Menu:hover ul, #menu li.over ul {
+/*properties for 2nd level menu when hovering*/
+	margin: 0;
+	padding: 0;
+	display: block;
+	z-index: 10000;
+	width: 90px;
+}
+
+#menu li.Menu a:hover, #menu li:hover a, #menu li.over a{
+/*properties for links on 2nd level menu when hovering*/
+	background-color: #3E3E3E;
+	color:#969696;
+}	
+/* End of CSS for menu bar and submenus */
+
+/* Beginning of CSS for Box/content & bottom menu*/
+#box {
+/*properties for the box */
+	height:500px;
+	width: 100%;
+	border: 1px solid #000000;
+	background-color: #142E53;
+	overflow: auto;
+}
+		
+#content{
+/*properties for the content in the box*/
+	height: 475px;
+	width: 100%;
+	overflow: auto;			
+}
+
+#pageTitle{
+	color: #FFD700;
+	font-family: calibri, verdana, arial, sans-serif;
+	font-size: 265%;
+	margin-left: 33px;
+	margin-top: 5px;
+}
+
+#homePicture{
+	position: relative;
+		top: 75px;
+		left: 260px;
+}
+
+#content1box{
+	height: 120px;
+	position:relative;
+		top: 55px;
+		left: 60px;
+	width: 940px;
+}
+		
+#content1buttonborder{
+	display:block;
+	float: left;
+	background-color: #BDBDCF;
+	border: 1px solid #000000;
+	width: 220px;
+	height: 70px;
+}
+		
+#content1button{
+	display: block;
+	background-color: #E6E5FA;
+	color: #0C1B30;
+	width: 208px;
+	height: 58px;
+	position: relative;
+		margin-left:5px;
+		margin-top:5px;
+	font-family: calibri, verdana, arial, sans-serif;
+	border: 1px solid #000000;
+}	
+
+#content1button:hover{
+	background-color: #3E3E3E;
+	color:#E6E5FA;
+}	
+
+#content1descriptionborder{
+	display:block;
+	float: left;
+	background-color: #BDBDCF;
+	border: 1px solid #000000;
+	width: 550px;
+	height: 70px;
+	position: relative;
+		left:62px;
+}
+		
+#content1description{
+	display: block;
+	background-color: #E6E5FA;
+	width: 538px;
+	height: 58px;
+	position: relative;
+		margin-left:5px;
+		margin-top:5px;
+	font-family: calibri, verdana, arial, sans-serif;
+	border: 1px solid #000000;
+}
+		
+#content2box{
+	height: 120px;
+	position:relative;
+		top: 60px;
+		left: 60px;
+	width: 940px;
+}
+
+#content2buttonborder{
+	display:block;
+	float: left;
+	background-color: #BDBDCF;
+	border: 1px solid #000000;
+	width: 220px;
+	height: 70px;
+}
+		
+#content2button{
+	display: block;
+	background-color: #E6E5FA;
+	color: #0C1B30;
+	width: 208px;
+	height: 58px;
+	position: relative;
+		margin-left:5px;
+		margin-top:5px;
+	font-family: calibri, verdana, arial, sans-serif;
+	border: 1px solid #000000;
+}
+
+#content2button:hover{
+	background-color: #3E3E3E;
+	color:#E6E5FA;
+}	
+		
+#content2descriptionborder{
+	display:block;
+	float: left;
+	position: relative;
+		left: 62px;
+	background-color: #BDBDCF;
+	border: 1px solid #000000;
+	width: 550px;
+	height: 70px;
+}
+		
+#content2description{
+	display: block;
+	background-color: #E6E5FA;
+	width: 538px;
+	height: 58px;
+	position: relative;
+		margin-left:5px;
+		margin-top:5px;
+	font-family: calibri, verdana, arial, sans-serif;
+	border: 1px solid #000000;
+}
+
+#whatweofferbox{
+	background-color: #D9D9D9;
+	border: 1px solid #000000;
+	margin: 10px 35px 20px 35px;
+	
+}
+
+#whatweoffer{
+	margin-left: 3em;
+	margin-right: 3em;
+	font-family:calibri, verdana, arial, sans-serif;
+	text-align:justify;
+	color: #3E3E3E;
+}
+
+#whatweoffer p{
+	text-indent: 2em;
+}
+
+#whatweoffer h3{
+	margin-bottom: 0;
+	color: #3E3E3E;
+	text-shadow: #0C1B30 .05em .05em .05em;
+}
+
+#potentialClientOuterBox{
+	width: 800px;
+	height: 410px;
+	border-bottom: 20px;
+	margin-left: 80px;
+	margin-top: 3px;
+	background-color: #BDBDCF;
+	border: 1px solid #000000;
+}
+
+#potentialClientBox{
+	position:relative;
+		width: 778px;
+		height: 388px;
+	margin-left: 10px;
+	margin-top: 10px;
+	background-color:#E6E5FA;
+	border: 1px solid #000000;
+	font-family: calibri, verdana, arial, sans-serif;
+}
+
+#potentialClientBox p{
+	margin-left: 2em;
+	margin-right: 2.75em;
+	margin-top: 10px;
+	margin-bottom: 0;
+	text-indent: 2em;
+	text-align: justify;
+	color: #0C1B30;
+}
+
+#potentialClient{
+	margin-left: 30px;
+	margin-right: 35px;
+	font-weight: bold;
+	color: #0C1B30;
+}
+
+#portalouterbox{
+	height:300px;
+	width: 450px;
+	border: 1px solid #000000;
+	margin-top: 40px;
+	margin-left: 275px;
+	background-color: #BDBDCF;
+}
+
+#portalinnerbox{
+	height:278px;
+	width: 428px;
+	border: 1px solid #000000;
+	position: relative;
+		margin-top: 10px;
+		margin-left: 10px;
+	background-color: #E6E5FA;
+}
+
+#signin{
+text-align:center;
+margin-top:30px;
+}
+
+#loginoptions{
+	align:center;
+}
+
+#loginoptions li{
+	float: left;
+	text-align: center;
+	display: block;
+	position: relative;
+		top: 20px;
+		left: 80px;
+	margin-left: 10px;
+	font-family: calibri, verdana, arial, sans-serif;
+}
+
+#loginoptions a:link, #loginoptions a:visited{
+	color:#142E53;
+	text-align:center;
+	text-decoration:none;
+}
+
+#aboutus{
+	font-family: calibri, verdana, arial, sans-serif;
+	margin: 60px 100px 0px 60px;
+		color: #FFD700;
+	text-indent: 2.3em;
+	text-align: justify;
+}
+
+#accountantboxborder{
+	width:425px;
+	height:380px;
+	margin-left: 60px;
+	margin-top: 15px;
+	background-color: #BDBDCF;
+	border: 1px solid #000000;
+}
+
+#accountantbox{
+	position:relative;
+		width: 403px;
+		height: 358px;
+	margin-left: 10px;
+	margin-top: 10px;
+	background-color:#E6E5FA;
+	border: 1px solid #000000;
+	font-family: calibri, verdana, arial, sans-serif;
+}
+
+#accountant{
+	font-family: calibri, verdana, arial, sans-serif;
+	margin: 18px 18px 10px 15px;
+	text-align: justify;
+	text-indent: 2.3em;
+}
+
+#addressboxborder{
+	width:270px;
+	height:150px;
+	margin-left: 60px;
+	margin-top: 30px;
+	background-color: #BDBDCF;
+	border: 1px solid #000000;
+}
+
+#addressbox{
+	position:relative;
+		width: 248px;
+		height: 128px;
+	margin-left: 10px;
+	margin-top: 10px;
+	background-color:#E6E5FA;
+	border: 1px solid #000000;
+	font-family: calibri, verdana, arial, sans-serif;
+}
+	
+#phoneboxborder{
+	float: left;
+	position: realtive;
+		width: 290px;
+		height:150px;
+		margin-left: 190px;
+		margin-top: 35px;
+	background-color: #BDBDCF;
+	border: 1px solid #000000;
+}
+	
+#phonebox{
+	float: left;
+	position: relative;
+		width: 268px;
+	height: 128px;
+	margin-left: 10px;
+	margin-top: 10px;
+	background-color: #E6E5FA;
+	border: 1px solid #000000;
+	font-family: calibri, verdana, arial, sans-serif;
+}
+	
+#map{
+	float: right;
+	display: block;
+		position:relative;
+		top: 10px;
+		right: 55px;
+	text-align: right;
+}
+
+#bottom_menu{
+/*properties for the bottom menu in the box*/
+	background-color:#142E53;
+	padding:0;
+	margin:0;
+	border:0;
+	font-size:100%;
+	font-family: calibri, verdana, arial, sans-serf;		   
+}
+
+#bottom_menu li{
+	float:left;
+	position: relative;
+		left: 8px;
+	display: block;
+	margin-left: .4em;
+	margin-right: .4em;			
+}
+
+#bottom_menu a:link, #bottom_menu a:visited{
+	color:#D9D9D9;
+	background-color: #142E53;
+	text-align:center;
+	text-decoration:none;
+}
+
+#privacyContent{
+	color: #D9D9D9;
+	border: 1px;
+}
+
+/* End of CSS for box/content & bottom menu*/
+
+/* Begining of CSS for footer */		
+#footer{
+	padding:0;
+	margin:0;
+	border:0;
+	color: #FFD700;
+	height:21px;
+	font-size:100%;
+	line-height:26px;
+	font-family: calibri, verdana, arial, sans-serf;
+}
+	
+#footer li{
+	float:right;
+	display: block;
+	margin-left: .5em;
+	margin-right: .5em;			
+}
+
+#footer a:link, #footer a:visited{
+	color:#FFD700;
+	background-color: #0C1B30;
+	text-align:center;
+	text-decoration:none;
+}
+/* End of CSS for footer */		
+
+/*CSS for Database*/
+#registrationProgressBar{
+	margin-left: 200px;
+	margin-top: 35px;
+}
+
+#registrationProgressBar h6{
+	text-align: center;
+	color: #0C1B30;
+	margin-top: 11px;
+}
+
+#progress1Selected{
+	position: relative;
+	margin-right: 20px;
+	float: left;
+	width:100px;
+	height: 10px;
+	border: 1px solid #0C1B30;	
+	background-color:#0C1B30;
+}
+
+#progress2{
+	position: relative;
+	margin-right: 20px;
+	float: left;
+	width:100px;
+	height: 10px;
+	border: 1px solid #0C1B30;	
+}
+
+#progress2Selected{
+	position: relative;
+	margin-right: 20px;
+	float: left;
+	width:100px;
+	height: 10px;
+	border: 1px solid #0C1B30;	
+	background-color:#0C1B30;
+}
+
+#progress3{
+	position: relative;
+	margin-right: 20px;
+	float: left;
+	width:100px;
+	height: 10px;
+	border: 1px solid #0C1B30;	
+}
+
+#progress3Selected{
+	position: relative;
+	margin-right: 20px;
+	float: left;
+	width:100px;
+	height: 10px;
+	border: 1px solid #0C1B30;	
+	background-color:#0C1B30;
+}
+
+#progress4{
+	position: relative;
+	margin-right: 20px;
+	float: left;
+	width:100px;
+	height: 10px;
+	border: 1px solid #0C1B30;	
+}
+
+#progress4Selected{
+	position: relative;
+	margin-right: 20px;
+	float: left;
+	width:100px;
+	height: 10px;
+	border: 1px solid #0C1B30;	
+	background-color:#0C1B30;
+}
+
+#userRegistrationBox{
+	height: auto;
+	width: 860px;
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-top: 0;
+	padding-bottom: 3.3em;
+	margin-top:.8em;
+	margin-left: 3.3em;
+	background-color: #D9D9D9;
+	border: 1px solid #000000;
+}
+
+#userRegistration{
+	position: relative;
+	margin-left: 1.3em;
+	margin-right: 1.3em;
+	margin-top: 5em;
+	font-family: calibri, arial, verdana, sans-serif;
+	color: #0C1B30;
+
+}
+
+
+#welcomeOption1Box{
+	height: 100px;
+	width: 100px;
+	position:relative;
+		top: 30px;
+		left: 380px;
+}
+
+#welcomeOption1OuterButton {
+	display:block;
+	float: left;
+	background-color: #BDBDCF;
+	border: 1px solid #000000;
+	width: 220px;
+	height: 70px;
+}
+
+#welcomeOption1Button{
+	display: block;
+	background-color: #E6E5FA;
+	color: #0C1B30;
+	width: 208px;
+	height: 58px;
+	position: relative;
+		margin-left:5px;
+		margin-top:5px;
+	font-family: calibri, verdana, arial, sans-serif;
+	text-align: center;
+	border: 1px solid #000000;
+}
+
+#welcomeOption1Button a{
+	text-decoration:none; 
+	color: #142E53;
+}
+
+#welcomeOption1Button:hover{
+	background-color: #3E3E3E;
+	color:#E6E5FA;
+}
+	
+#welcomeOption2Box{
+	height: 100px;
+	width: 100px;
+	position:relative;
+		top: 30px;
+		left: 380px;
+}
+
+#welcomeOption2OuterButton{
+	display:block;
+	float: left;
+	background-color: #BDBDCF;
+	border: 1px solid #000000;
+	width: 220px;
+	height: 70px;
+}
+
+#welcomeOption2Button{
+	display: block;
+	background-color: #E6E5FA;
+	color: #0C1B30;
+	width: 208px;
+	height: 58px;
+	position: relative;
+		margin-left:5px;
+		margin-top:5px;
+	font-family: calibri, verdana, arial, sans-serif;
+	text-align: center;
+	border: 1px solid #000000;
+}
+
+#welcomeOption2Button a{
+	text-decoration:none; 
+	color: #142E53;
+}
+
+#welcomeOption2Button:hover{
+	background-color: #3E3E3E;
+	color:#E6E5FA;
+}
+	
+#welcomeOption3Box{
+	height: 100px;
+	width: 100px;
+	position:relative;
+		top: 30px;
+		left: 380px;
+}
+
+#welcomeOption3OuterButton{
+	display:block;
+	float: left;
+	background-color: #BDBDCF;
+	border: 1px solid #000000;
+	width: 220px;
+	height: 70px;
+}
+
+#welcomeOption3Button{
+	display: block;
+	background-color: #E6E5FA;
+	color: #0C1B30;
+	width: 208px;
+	height: 58px;
+	position: relative;
+		margin-left:5px;
+		margin-top:5px;
+	font-family: calibri, verdana, arial, sans-serif;
+	text-align: center;
+
+	border: 1px solid #000000;
+}
+
+#welcomeOption3Button a{
+	text-decoration:none; 
+	color: #142E53;
+	width: 208px;
+	height: 58px;
+}
+
+#welcomeOption3Button:hover, #welcomeOption3Button a:hover{
+	background-color: #3E3E3E;
+	color:#E6E5FA;
+}	
+
+#welcomeProfileButtons{
+	width: 900px;
+	height: 50px;
+}
+
+#welcomeProfilePersonType{
+	display: inline-block;
+	vertical-align: middle;
+	color: #E6E5FA;
+	font-family: calibri, verdana, arial, sans-serif;
+	font-size: medium;
+
+}
+
+#welcomeProfileUNCHANGABLEinformation{
+	width: 950px;
+	height: 35px;
+}
+
+#welcomeProfileName {
+	margin-left: 2em;
+	color:#FFD700;
+	font-family: calibri, verdana, arial, sans-serif;
+	height: 30px;
+	width: 580px;
+	float: left;
+	padding-right: 0px;
+	margin-right:0px;
+	border-right: 0px;
+
+}
+
+#welcomeProfileNameInput{
+	display: inline-block;
+	position: relative;
+		left: 18px;
+		width: 515px;
+		height: 25px;
+	font-family: calibri, verdana, arial, sans-serif;
+	vertical-align: middle;
+	border: none;
+	color: #E6E5FA;
+	background-color: none;
+
+}
+
+#welcomeProfileMemberSince{
+	color:#FFD700;
+	font-family: calibri, verdana, arial, sans-serif;
+	height: 25px;
+	width: 300px;
+	float: right;
+}
+
+#welcomeProfileMemberSinceInput{
+	display: inline-block;
+	position: relative;
+		left: 5px;
+		width: 175px;
+		height: 25px;
+	font-family: calibri, verdana, arial, sans-serif;
+	vertical-align: middle;
+	border: none;
+	color: #E6E5FA;
+	background-color: none;
+
+}
+
+#welcomeProfileAddress {
+	position:relative;
+	margin-left: 2em;
+	color:#FFD700;
+	font-family: calibri, verdana, arial, sans-serif;
+	height: 180px;
+	width: 950px;
+}
+
+#welcomeProfileAddress1{
+	display: inline-block;
+	position: relative;
+		left: 5px;
+		width: 160px;
+		height: 180px;
+	font-family: calibri, verdana, arial, sans-serif;
+	vertical-align: top;
+	border: none;
+	color: #E6E5FA;
+	background-color: none;
+
+}
+#welcomeProfileAddress2{
+	display: inline-block;
+	position: relative;
+		left: 20px;
+		width: 160px;
+		height: 180px;
+	font-family: calibri, verdana, arial, sans-serif;
+	vertical-align: top;
+	border: none;
+	color: #E6E5FA;
+	background-color: none;
+}
+#welcomeProfileAddress3{
+	display: inline-block;
+	position: relative;
+		left: 35px;
+		width: 160px;
+		height: 180px;
+	font-family: calibri, verdana, arial, sans-serif;
+	vertical-align: top;
+	border: none;
+	color: #E6E5FA;
+	background-color: none;
+}
+#welcomeProfileAddress4{
+	display: inline-block;
+	position: relative;
+		left: 50px;
+		width: 160px;
+		height: 180px;
+	font-family: calibri, verdana, arial, sans-serif;
+	vertical-align: top;
+	border: none;
+	color: #E6E5FA;
+	background-color: none;
+}
+#welcomeProfileAddress5{
+	display: inline-block;
+	position: relative;
+		left: 65px;
+		width: 160px;
+		height: 180px;
+	font-family: calibri, verdana, arial, sans-serif;
+	vertical-align: top;
+	border: none;
+	color: #E6E5FA;
+	background-color: none;
+}
+
+#welcomeProfileEmail {
+	position:relative;
+	margin-left: 2em;
+	color:#FFD700;
+	font-family: calibri, verdana, arial, sans-serif;
+	height: 40px;
+	width: 900px;
+	vertical-align: middle;
+}
+
+#welcomeProfileEmail1{
+	display: inline-block;
+	position: relative;
+		left: 21px;
+		width: 160px;
+		height: 22px;
+	border: none;
+	font-family: calibri, verdana, arial, sans-serif;
+	color: #E6E5FA;
+	background-color: none;
+	vertical-align: top;
+
+}
+#welcomeProfileEmail2{
+	display: inline-block;
+	position: relative;
+		left: 36px;
+		width: 160px;
+		height: 22px;
+	border: none;
+	font-family: calibri, verdana, arial, sans-serif;
+	color: #E6E5FA;
+	background-color: none;
+	vertical-align: top;
+
+}
+
+#welcomeProfilePhone {
+	position:relative;
+	margin-left: 2em;
+	color:#FFD700;
+	font-family: calibri, verdana, arial, sans-serif;
+	height: 65px;
+	width: 900px;
+	vertical-align: middle;
+}
+
+#welcomeProfilePhone1{
+	display: inline-block;
+	position: relative;
+		width: 160px;
+		height: 60px;
+		left: 17px;
+	border: none;
+	font-family: calibri, verdana, arial, sans-serif;
+	color: #E6E5FA;
+	background-color: none;
+	vertical-align: top;
+}
+#welcomeProfilePhone2{
+	display: inline-block;
+	position: relative;
+		width: 160px;
+		height: 50px;
+		left: 32px;
+	border: none;
+	font-family: calibri, verdana, arial, sans-serif;
+	color: #E6E5FA;
+	background-color: none;
+	vertical-align: top;
+}
+#welcomeProfilePhone3{
+	display: inline-block;
+	position: relative;
+		width: 160px;
+		height: 50px;
+		left: 47px;
+	border: none;
+	font-family: calibri, verdana, arial, sans-serif;
+	color: #E6E5FA;
+	background-color: none;
+	vertical-align: top;
+}
+#welcomeProfilePhone4{
+	display: inline-block;
+	position: relative;
+		width: 160px;
+		height: 50px;
+		left: 62px;
+	border: none;
+	font-family: calibri, verdana, arial, sans-serif;
+	color: #E6E5FA;
+	background-color: none;
+	vertical-align: top;
+}
+#welcomeProfilePhone5{
+	display: inline-block;
+	position: relative;
+		width: 160px;
+		height: 50px;
+		left: 77px;
+	border: none;
+	font-family: calibri, verdana, arial, sans-serif;
+	color: #E6E5FA;
+	background-color: none;
+	vertical-align: top;
+}
+
+#welcomeProfileUsernameAndPassword {
+	position:relative;
+	margin-left: 2em;
+	color:#FFD700;
+	font-family: calibri, verdana, arial, sans-serif;
+	height: 40px;
+	width: 900px;
+	vertical-align: middle;
+}
+
+
+#welcomeProfileUsername{
+	display: inline-block;
+	position: relative;
+		left: 41px;
+		width: 160px;
+		height: 22px;
+	border: none;
+	font-family: calibri, verdana, arial, sans-serif;
+	color: #E6E5FA;
+	background-color: #none;
+	vertical-align: middle;
+}
+#welcomeProfilePassword{
+	display: inline-block;
+	position: relative;
+		left: 24px;
+		width: 160px;
+		height: 22px;
+	border: none;
+	font-family: calibri, verdana, arial, sans-serif;
+	color: #E6E5FA;
+	background-color: #none;
+	vertical-align: middle;
+	
+}
+#welcomeProfileRepeatPassword{
+	display: inline-block;
+	position: relative;
+		left: 5px;
+		width: 160px;
+		height: 22px;
+	border: none;
+	font-family: calibri, verdana, arial, sans-serif;
+	color: #E6E5FA;
+	background-color: #none;
+	vertical-align: middle;
+	
+}
+
+#welcomeProfileBox{
+	position:relative;
+	width: 180px;
+	height: 70px;
+	border: 1px solid #000000;
+	background-color: #BDBDCF;
+	color: #3E3E3E;
+	padding-left: 10px;
+	padding-top: 10px;
+	font-family: calibri, verdana, arial, sans-serif;
+}
+
+
+
+
+
+

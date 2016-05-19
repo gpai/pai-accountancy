@@ -1,0 +1,15 @@
+startList = (function(){
+	if(document.all && document.getElementById){
+		navRoot = document.getElementById("menu");
+		for (i=0; i<navRoot.childNodes.length; i++) {
+			node = navRoot.childNodes[i];
+			if (node.nodeNames =="LI"){
+			node.onmouseover=function(){
+			this.className+=" over";
+				}
+		node.onmouseout=function(){
+		this.className=this.className.replace
+			(" over", "");
+			}}}}}
+			window.onload=startList;
+			);
